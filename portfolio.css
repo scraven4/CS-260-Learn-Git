@@ -25,13 +25,23 @@ a {
   background-color: #28FFD7;
 }
 
-a:link {
+nav a:link {
   text-decoration: none;
   font-weight: bold;
   color: black;
 }
-a:visited {
+nav a:visited {
   text-decoration: none;
   font-weight: bold;
   color: black;
+}
+
+section {
+  display: flex;
+}
+aside {
+  flex: 1
+}
+article {
+  flex: 9
 }
