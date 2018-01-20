@@ -1,0 +1,23 @@
+
+
+body {
+  background-color: #1BAEFF;
+}
+
+h2 {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  float: left;
+}
+a {
+  display: block;
+  padding: 8px;
+  background-color: #246FE8;
+}
