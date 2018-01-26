@@ -1,47 +1,76 @@
 
 
 body {
-  background-color: #1BAEFF;
+ background-color: white;
+ padding: 25px 150px 150px 150px;
+ font-family: 'Montserrat', sans-serif;
+
 }
 
-h2 {
+h1 {
+  text-align: center;
+  font-weight: lighter;
+}
+
+
+
+div {
   text-align: center;
 }
 
-nav ul {
+ul {
+  display: inline-block;
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: 5;
+  padding: 10;
 }
-nav li {
+
+li {
   float: left;
 }
+
 a {
-  display: block;
-  padding: 8px;
-  background-color: #246FE8;
-}
-.active {
-  background-color: #28FFD7;
+  padding: 10px 60px;
 }
 
-nav a:link {
+a:hover {
   text-decoration: none;
-  font-weight: bold;
-  color: black;
+  color: #111;
 }
-nav a:visited {
+
+a:active {
   text-decoration: none;
-  font-weight: bold;
   color: black;
 }
 
-section {
-  display: flex;
+a:link {
+  text-decoration: none;
+  color: #808080;
 }
-aside {
-  flex: 1
+
+a:visited {
+  color: #808080;
 }
-article {
-  flex: 9
+
+/*about page*/
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 10px;
+
+.jude {
+  padding-top: 16px;
+  max-width: 10%;
+  height: auto;
+}
+
+/*frontpage */
+
+.frontpage {
+  padding-top: 16px;
+  max-width: 100%;
+  height: auto;
+  -webkit transform: scaleX(-1);
+  transform: scaleX(-1);
 }
