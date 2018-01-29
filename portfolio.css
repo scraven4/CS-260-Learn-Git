@@ -4,7 +4,7 @@ body {
  background-color: white;
  padding: 25px 150px 150px 150px;
  font-family: 'Montserrat', sans-serif;
-
+ color: #111;
 }
 
 h1 {
@@ -18,8 +18,9 @@ div {
   text-align: center;
 }
 
-ul {
-  display: inline-block;
+.nav {
+  grid: display;
+  grid-template-columns: repeat(5, 20%);
   list-style-type: none;
 }
 
@@ -56,17 +57,46 @@ form {
   align: center;
 }
 
+
 .wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   grid-column-gap: 10px;
-
-.jude {
   padding-top: 16px;
-  max-width: 10%;
-  height: auto;
+  max-width: 80%;
 }
 
+h2 {
+  text-align: center;
+}
+
+.block {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.bio {
+  text-align: center;
+  text-align: justify;
+  max-width: 50%;
+}
+
+.jude {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-top: 16px;
+  max-width: 25%;
+  height: auto
+}
+
+#bio {
+  display: flex;
+  justify-content: center;
+  color: #111;
+}
 
 
 .frontpage {
