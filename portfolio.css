@@ -21,8 +21,6 @@ div {
 ul {
   display: inline-block;
   list-style-type: none;
-  margin: 5;
-  padding: 10;
 }
 
 li {
@@ -35,7 +33,7 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: #111;
+  color: #black;
 }
 
 a:active {
@@ -54,6 +52,10 @@ a:visited {
 
 /*about page*/
 
+form {
+  align: center;
+}
+
 .wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -65,11 +67,11 @@ a:visited {
   height: auto;
 }
 
-/*frontpage */
+
 
 .frontpage {
   padding-top: 16px;
-  max-width: 100%;
+  width: 100%;
   height: auto;
   -webkit transform: scaleX(-1);
   transform: scaleX(-1);
